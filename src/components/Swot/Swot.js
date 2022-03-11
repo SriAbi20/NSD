@@ -15,10 +15,8 @@ const Swot = () =>{
           Strength
         </Typography>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        ·     Quick Learner – New technology or digital software are subjects I feel quite confident with, I tend to learn new software packages easily and quickly and am not afraid to experiment to get the best results.
-·   Communication – It will be important to engage with members of the team to recognise what is wanted from the project. My good verbal and written communication skills will help make the connection to ensure the project is successful.  
-·  Commitment – This application is important to the helpdesk team that I work with, believing in the project and being committed to it is a great strength to see it through to the end. 
-·    Motivation – I am highly motivated to improve the efficiency on the helpdesk, the project will provide support to colleagues and help to achieve this.
+       <p> · Quick Learner – New technology or digital software are subjects I feel quite confident with, I tend to learn new software packages easily and quickly and am not afraid to experiment to get the best results. </p>
+       <p> · Motivation – I am highly motivated to improve technical skills, this module will assist me in broadening my technical expertise.</p>
         </Typography>
         
         </CardContent>
@@ -29,8 +27,8 @@ const Swot = () =>{
           Weakness
         </Typography>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        ·   Time Management – I sometimes struggle to manage working full time, whilst studying part time with home life and other personal commitments. 
-·    Procrastination – I can be easily distracted when I do not fully understand a topic, this leads to delaying starting a project and puts me further behind.
+     <p>  ·   Time Management – I sometimes struggle to manage working part time, whilst studying full time in university is difficult when it comes to learn new technology. </p> 
+     <p>  ·    Procrastination – I can be easily distracted when I do not fully understand a topic, this leads to delaying starting a project and puts me further behind.</p>
         </Typography>
         
         </CardContent>
@@ -41,7 +39,7 @@ const Swot = () =>{
       Opportunities
         </Typography>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        ·   Use of online tutorials – The use of youtube and tutorials as supplements to classroom learning will add broaden the knowledge base required to initiate the project.
+        ·   Use of online tutorials – YouTube videos and udemy courses allow us to master advance technology for free at any time and from anywhere..  
         </Typography>
         
         </CardContent>
@@ -52,8 +50,7 @@ const Swot = () =>{
       Threats
         </Typography>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-        ·  Constant update in technology – As fast as we are learning about technology there are advancements in it, this could pose a threat that the application is no longer current when it is released.
-·   Bugs & Viruses – This is an external threat that is out of the control of the project, but it is something that could 
+        <p> · Constant update in technology – As fast as we are learning about technology there are advancements in it, also few elements will be deprecated soon this could pose a threat that the application is no longer current when it is deployed. </p>
         </Typography>
         
         </CardContent>

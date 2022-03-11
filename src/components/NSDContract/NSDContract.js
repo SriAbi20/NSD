@@ -36,9 +36,9 @@ const StyledTableCell = styled(TableCell)(({ theme }) => ({
   }
   
   const rows = [
-    createData('To understand the main design principles of interaction design (30%)','I will attend lectures and carry out independent research through books and online resources to gain an understanding of how interaction design came about and why it is important in our everyday lives. From this the main principles of how interaction design works will focused on and then implemented whilst developing an interactive product.','The principles will explained through the online blog and be applied to the final product.','Date:07/05/2017'),
-    createData('To gain valuable skills in React.js (50%)','As a complete beginner with React.js coding language, I will watch youtube videos and complete tutorials and exercises to learn how to build basic applications using the appropriate coding such as React.js & Redux.','E-Portfolio also built using React.js, hence evidencing the skills acquired, the progress will be described on my blog.', 'Date:07/05/2022'),
-    createData('To adhere to Leeds Beckett branding guidelines (20%)','Leeds Beckett University has strict guidelines to follow when it comes to creating documents, marketing and media. I will discuss the product with the marketing team to ensure guidelines are met and follow the branding book requirements.', 'The final product will evidence that branding guidelines have been followed.','Date:07/05/2017')
+    createData('To understand the main design principles of interaction design (30%)','I will watch tutorials and carry out independent research through books and online resources to gain an understanding of how interaction design came about and why it is important in our everyday lives. From this the main principles of how interaction design works will focused on and then implemented whilst developing an interactive product.','The principles will explained through the online blog and be applied to the final product.','Date:04/05/2022'),
+    createData('To gain valuable skills in React.js (50%)','As a complete beginner with React.js coding language, I will watch youtube videos and complete tutorials and exercises to learn how to build basic applications using the appropriate coding such as React.js & Redux.','E-Portfolio also built using React.js, hence evidencing the skills acquired, the progress will be described on my blog.', 'Date:04/05/2022'),
+    createData('To adhere to develop responsive application (20%)','Nowadays lot of employers expecting developers to develop responsive app which should align and work across all the devices such as mobile , tablet and desktop.', 'E-Portfolio blog will evidence that responsiveness have been followed.','Date:04/05/2022')
   ];
 
 
@@ -52,7 +52,7 @@ const NSDContract = () =>{
               <StyledTableCell align="center">Title</StyledTableCell>
               <StyledTableCell align="center">Description</StyledTableCell>
               <StyledTableCell align="center">In what format will you evidence your learning outcome?</StyledTableCell>
-              <StyledTableCell align="center">Date of completion</StyledTableCell>
+              <StyledTableCell align="center">Expected Date of completion</StyledTableCell>
               
             </TableRow>
           </TableHead>
