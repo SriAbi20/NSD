@@ -18,11 +18,13 @@ const JobSpec = () =>{
 <div className="card">
   <div className="container">
     <h4><b> Required Skills </b></h4> 
+       <p> . Understanding of version control systems e.g. Git.</p>
        <p> . Excellent development experience with a strong focus on the Front end. </p>
        <p> . Experience with React.JS libraries </p>
        <p> . Experience developing apps would be highly beneficial</p>
        <p> . Excellent communication skills, happy to speak with customers and resolve any issues which may arise.</p>
        <p> . Ability to create responsive app. </p>
+       <p> . Experience or knowledge of Agile methods</p>
   </div>
 </div>
         </div>
