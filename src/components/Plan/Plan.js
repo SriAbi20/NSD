@@ -1,68 +1,43 @@
 import React from 'react';
-import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';
-import TimelineSeparator from '@mui/lab/TimelineSeparator';
-import TimelineConnector from '@mui/lab/TimelineConnector';
-import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineDot from '@mui/lab/TimelineDot';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import './Plan.scss';
+
 const Plan = () =>{
-    return (
-        <React.Fragment>
-      <Timeline position="alternate">
-        <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-            Week 1 & 2
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="success"/>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Studied Basics of React</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-            Week 3 
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="success"/>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Created React Basic CRUD application</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-            Week 4
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="success"/>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Learnt Redux </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-            Week 5
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="success"/>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Creating NSD E-Portfolio using React Programming </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent color="text.secondary">
-            Week 6 to 12
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="secondary"/>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Planned to create many responsive application</TimelineContent>
-        </TimelineItem>
-       
-      </Timeline>
-    </React.Fragment>
+    return(
+        <div className='plan'>
+            <div class="timeline">
+  <div class="timelinecontainer left">
+    <div class="content">
+      <h3> Week 1 & 2</h3>
+      <p>Studied Basics of React</p>
+    </div>
+  </div>
+  <div class="timelinecontainer right">
+    <div class="content">
+      <h3> Week 3 </h3>
+      <p>Created React Basic CRUD application.</p>
+    </div>
+  </div>
+  <div class="timelinecontainer left">
+    <div class="content">
+      <h3> Week 4 </h3>
+      <p>Learnt Redux</p>
+    </div>
+  </div>
+  <div class="timelinecontainer right">
+    <div class="content">
+      <h3> Week 5</h3>
+      <p>Creating NSD E-Portfolio using React Programming.</p>
+    </div>
+  </div>
+  <div class="timelinecontainer left">
+    <div class="content">
+      <h3> Week 6 to 12</h3>
+      <p>Planned to create many responsive application.</p>
+    </div>
+  </div>
+</div>
+
+        </div>
     )
 }
 export default Plan;
