@@ -14,9 +14,10 @@ function App() {
   return (
     <Router>
       <Header/>
+      <Route path="/"  exact element={<Main/>}/>
       <Routes>
         
-        <Route path="/"  exact element={<Main/>}/>
+        
         <Route path="/rationale"  exact element={<Rationale/>}/>
         <Route path="/nsd" element={<NSDContract/>}/>
         <Route path="/swot" element={<Swot/>}/>
