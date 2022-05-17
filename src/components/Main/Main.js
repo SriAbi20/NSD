@@ -1,6 +1,6 @@
 import { Facebook, Instagram, LinkedIn,  } from '@mui/icons-material'
 import GitHubIcon from '@mui/icons-material/GitHub';
-import React, { useState } from 'react'
+import React from 'react'
 import './Main.scss'
 import man from '../../images/White.png'
 import Typical from 'react-typical';
