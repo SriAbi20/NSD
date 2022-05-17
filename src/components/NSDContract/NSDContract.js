@@ -33,7 +33,7 @@ const NSDContract = () =>{
                     <tr>
                         <td data-label='Title'>To deploy responsive application in Amazon Web Services(20%)</td>
                         <td data-label='Description'>The deployment process should be understood by front end developers. Employers, in particular, expect developers to be familiar with Amazon Web Services.</td>
-                        <td data-label='In what format will you evidence your learning outcome?'>E-Portfolio blog will be deployed in AWS and link will be given as a proof.</td>
+                        <td data-label='In what format will you evidence your learning outcome?'>E-Portfolio blog deployed in AWS and link will be given as a proof.</td>
                         <td data-label='Expected Date of completion'>Date:18/05/2022</td>
                     </tr>
                 </tbody>

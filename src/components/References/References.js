@@ -23,7 +23,6 @@ const References = () =>{
   <div className="container">
   Sampiao, T. (2019).<i> How to Deploy React App to GitHub Pages. [online] www.youtube.com</i>. Available at: https://www.youtube.com/watch?v=F8s4Ng-re0E&t=444s [Accessed 17 May 2022].
   </div>
-  
   </div>
   <div className="card">
   <div className="container">
