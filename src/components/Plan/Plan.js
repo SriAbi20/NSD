@@ -25,14 +25,14 @@ const Plan = () =>{
   </div>
   <div className="timelinecontainer right">
     <div className="content">
-      <h3> Week 5</h3>
-      <p>Creating NSD E-Portfolio using React Programming.</p>
+      <h3> Week 5 to 10</h3>
+      <p>Created NSD E-Portfolio using React Programming.</p>
     </div>
   </div>
   <div className="timelinecontainer left">
     <div className="content">
-      <h3> Week 6 to 12</h3>
-      <p>Planned to create many responsive application.</p>
+      <h3> Week 11 to 12</h3>
+      <p>Deployed react application in AWS cloud.</p>
     </div>
   </div>
 </div>

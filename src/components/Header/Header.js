@@ -40,7 +40,7 @@ const Header = () =>{
                         <Link to='/plan'>Plan</Link>
                     </li>
                     <li>
-                        <Link to='/contact'>Contact</Link>
+                        <Link to='/ref'>References</Link>
                     </li>
                 </ul>
             </nav>

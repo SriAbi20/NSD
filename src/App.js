@@ -8,6 +8,7 @@ import Contact from './components/Contact/Contact';
 import Rationale from './components/Rationale/Rationale';
 import JobSpec from './components/JobSpec/JobSpec';
 import Plan from './components/Plan/Plan';
+import References from './components/References/References';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/job" exact element={<JobSpec/>}/>
         <Route path="/plan" exact element={<Plan/>}/>
         <Route path="/contact"exact element={<Contact/>}/>
+        <Route path="/ref"exact element={<References/>}/>
       </Routes>
     </Router>
   );

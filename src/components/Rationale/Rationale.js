@@ -13,8 +13,8 @@ const Rationale = () =>{
 In this module, I planned to create and deploy many responsive react application on different platforms such as github.
 </p>
 <p className='textalignment'>
-The reason behind choosing this React language is , I was a SAP UI5 Consulatant in a reputed IT compancy there I used to create SAP frontend applications.But I always keen to learn recent or modernized technology such as react 
-which is developed and maintained by facebook.Our day to day application such as Facebook,WhatsApp,Instagram are developed by react.So I decided to learn more about this language through this module.
+The reason behind choosing this React language is , I was a SAP UI5 Consulatant in a reputed IT compancy there I used to create SAP frontend applications.But I always keen to learn recent or modernized technology such as Angular,Vue.js and React js.
+I have decided to learn React.js which is developed and maintained by facebook.Our day to day application such as Facebook,WhatsApp,Instagram are developed by react.So I decided to learn more about this language through this module.
 </p>
 <h6 className='bold'>
     React JS
