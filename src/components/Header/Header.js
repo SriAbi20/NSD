@@ -28,7 +28,7 @@ const Header = () =>{
                         <Link to='/rationale'>Rationale</Link>
                     </li>
                     <li>
-                        <Link to='/nsd'>NSD Contract</Link>
+                        <Link to='/nsdc'>NSD Contract</Link>
                     </li>
                     <li>
                         <Link to='/swot'>SWOT Analysis</Link>

@@ -13,16 +13,18 @@ import Plan from './components/Plan/Plan';
 function App() {
   return (
     <Router>
+      
       <Header/>
-     
+    
       <Routes>
-        <Route path="/"  exact element={<Main/>}/>
-        <Route path="/rationale"  element={<Rationale/>}/>
-        <Route path="/nsd" element={<NSDContract/>}/>
-        <Route path="/swot" element={<Swot/>}/>
-        <Route path="/job" element={<JobSpec/>}/>
-        <Route path="/plan" element={<Plan/>}/>
-        <Route path="/contact" element={<Contact/>}/>
+   
+        <Route path="/"  exact element={<Main />} />
+        <Route path="/rationale" exact element={<Rationale/>}/>
+        <Route path="/nsdc" exact element={<NSDContract/>}/>
+        <Route path="/swot"  exact element={<Swot/>}/>
+        <Route path="/job" exact element={<JobSpec/>}/>
+        <Route path="/plan" exact element={<Plan/>}/>
+        <Route path="/contact"exact element={<Contact/>}/>
       </Routes>
     </Router>
   );
